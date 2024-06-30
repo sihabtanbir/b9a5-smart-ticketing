@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus ticketing</title>
+
+    
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h8m-8 6h16" />
+                  </svg>
+                </div>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                  <li><a>Home</a></li>
+                  <li>
+                    <a>Destinations</a>
+                    <ul class="p-2">
+                      <li><a>Submenu 1</a></li>
+                      <li><a>Submenu 2</a></li>
+                    </ul>
+                  </li>
+                  <li><a>about</a></li>
+                  <li><a>search</a></li>
+                </ul>
+              </div>
+              <a class="btn btn-ghost text-3xl">P-Ticket</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a>Item 1</a></li>
+                <li>
+                  <details>
+                    <summary>Destinations</summary>
+                    <ul class="p-2">
+                      <li><a>Submenu 1</a></li>
+                      <li><a>Submenu 2</a></li>
+                    </ul>
+                  </details>
+                </li>
+                <li><a>about</a></li>
+                <li><a>search</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end">
+              <a class="btn">Bus</a>
+            </div>
+          </div>
+    </header>
+
+    <section class="banner">
+        <div class="container m-auto ">
+            <img src="images/banner.png" class="absolute" alt="">
+
+            <div class="text-center  relative text-white w-75 m-0 pt-10 md:pt-20">
+              <h1 class="text-3xl">End to end journey with</h1>
+              <h1 class="text-3xl">P-Poribohon</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam et libero, sunt qui nihil quaerat blanditiis recusandae tenetur modi dolor!</p>
+
+              <a href="" class="btn px-4 py-0 m-3 bg-success">Buy Ticket</a>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="best-offer container text-black">
+      <div class="w-50">
+        <div>
+        <h1 class="text-3xl">15% off</h1>
+     
+      <h3 class="text-xl"> on your next purchase</h3>
+      <h3 class="text-xl"> use by june</h3>
+    </div>
+    <div>
+      <img src="images/cupon-devider.png" alt="">
+    </div>
+    <div>
+      <h1 class="text-3xl">New15 </h1>
+      <p class="text-xl">Coupon Code </p>
+    </div>
+    </div>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
